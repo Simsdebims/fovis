@@ -3,8 +3,7 @@ cmake_minimum_required (VERSION 3.0)
 add_definitions(-march=native)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
-
-message(STATUS ${eigen_directory})
+include_directories(${eigen_directory})
 
 if(USE_SSE)
     add_definitions(-msse2 -msse3 -msse4.2)
