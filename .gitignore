@@ -1,0 +1,9 @@
+bin/
+build/
+*.user
+*.*~
+*.sdf
+*.tlog
+*.deps
+*.pdb
+*.suo
