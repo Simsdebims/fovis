@@ -1,7 +1,5 @@
 cmake_minimum_required (VERSION 3.0)
 
-find_package(Eigen3 REQUIRED)
-
 add_definitions(-march=native)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
